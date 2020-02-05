@@ -4,8 +4,8 @@
     header('Location: index.php');
     }
 
-  require_once('function.php');
-  require_once('dbconnect.php');
+    require_once('function.php');
+    require_once('dbconnect.php');
 
     $nickname = $_POST['nickname'];
     $email = $_POST['email'];
@@ -20,6 +20,8 @@
 <head>
     <title>送信完了</title>
     <meta charset="utf-8">
+
+
 </head>
 <body>
     <h1>お問い合わせありがとうございました！</h1>
